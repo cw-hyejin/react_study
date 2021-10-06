@@ -9,9 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^5.0.0-beta.5",
+    "@material-ui/icons": "^5.0.0-beta.5",
+    "@material-ui/styles": "^5.0.0-beta.5",
+    "chart.js": "^3.5.1",
+    "dayjs": "^1.10.6",
+    "formik": "^2.1.5",
+    "history": "^5.0.0",
+    "next": "^11.1.1",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^3.0.4",
+    "react-dom": "^17.0.2",
+    "react-feather": "^2.0.8",
+    "react-helmet": "^6.1.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-query": "^3.24.4",
+    "react-router": "^6.0.0-beta.0",
+    "react-scripts": "^4.0.3",
+    "uuid": "^8.3.0",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "eslint": "7.32.0",
