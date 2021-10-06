@@ -33,37 +33,37 @@ const user = {
 
 const items = [
   {
-    href: 'Dashboard',
+    href: 'dashboard',
     icon: BarChartIcon,
     title: 'Dashboard'
   },
   {
-    href: '/Customers',
+    href: '/customers',
     icon: UsersIcon,
     title: 'Customers'
   },
   {
-    href: '/ProductList',
+    href: '/productList',
     icon: ShoppingBagIcon,
     title: 'Products'
   },                                                                                                                                                                                                                                                                                                                                 
   {
-    href: '/Account',
+    href: '/account',
     icon: UserIcon,
     title: 'Account'
   },
   {
-    href: '/Settings',
+    href: '/settings',
     icon: SettingsIcon,
     title: 'Settings'
   },
   {
-    href: '/Login',
+    href: '/login',
     icon: LockIcon,
     title: 'Login'
   },
   {
-    href: '/Register',
+    href: '/register',
     icon: UserPlusIcon,
     title: 'Register'
   },
@@ -99,7 +99,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
           p: 2
         }}
       >
-        <Link href="/Account">
+        <Link href="/account">
           <Avatar
             // component={Link}
             src={user.avatar}
@@ -108,7 +108,7 @@ const DashboardSidebar = ({ onMobileClose, openMobile }) => {
               width: 64,
               height: 64
             }}
-            to="/Account"
+            to="/account"
           />
         </Link>
         <Typography

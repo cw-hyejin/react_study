@@ -9,7 +9,7 @@ import {
   Divider,
   Typography
 } from '@material-ui/core';
-import MainLayout from '../../../pages/api/mainLayout';
+import MainLayout from 'pages/mainLayout';
 import DashboardLayout from 'src/components/DashboardLayout';
 const user = {
   avatar: '/static/images/avatars/avatar_6.png',
