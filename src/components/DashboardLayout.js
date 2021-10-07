@@ -40,7 +40,6 @@ const DashboardLayoutContent = styled('div')({
 });
 
 const DashboardLayout = ({ children }) => {
-  console.log("dashbard", children)
   const [isMobileNavOpen, setMobileNavOpen] = useState(false);
   return (
     <StyledEngineProvider injectFirst>

@@ -16,6 +16,8 @@
     "@material-ui/core": "^5.0.0-beta.5",
     "@material-ui/icons": "^5.0.0-beta.5",
     "@material-ui/styles": "^5.0.0-beta.5",
+    "@types/node": "^16.10.3",
+    "@types/react": "^17.0.27",
     "chart.js": "^3.5.1",
     "dayjs": "^1.10.6",
     "formik": "^2.1.5",
@@ -32,6 +34,7 @@
     "react-query": "^3.24.4",
     "react-router": "^6.0.0-beta.0",
     "react-scripts": "^4.0.3",
+    "typescript": "^4.4.3",
     "uuid": "^8.3.0",
     "yup": "^0.32.9"
   },

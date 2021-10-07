@@ -14,9 +14,6 @@ import DashboardLayout from 'src/components/DashboardLayout';
 const dashboard = () => {
   return dashboard.getLayout(
       <>
-        <Helmet>
-          <title>Dashboard | Material Kit</title>
-        </Helmet>
         <Box
           sx={{
             backgroundColor: 'background.default',
